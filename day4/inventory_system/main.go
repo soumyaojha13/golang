@@ -84,7 +84,7 @@ func main() {
 	inv := Inventory{}
 	file := "inventory.json"
 
-	// Load existing data
+	
 	inv.LoadFromFile(file)
 
 	for {
